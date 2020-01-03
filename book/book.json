@@ -1,0 +1,58 @@
+{
+    "title": "Personal wiki",
+    "author": "Shanfeng Liu",
+    "description": "Notes and thoughts",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "/styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-lunr", 
+        "-search", 
+        "chapter-fold",
+        "search-pro",
+        "folding-chapters",
+        "back-to-top-button",
+        "github",
+        "advanced-emoji",
+        "splitter",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "prism",
+        "-highlight"
+    ],
+    "pluginsConfig": {
+        "chapter-fold":{
+        },
+        "github": {
+            "url": "https://github.com/shanfengliudd01"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "twitter": false,
+            "weibo": true,
+         "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+              "messenger","qq", "qzone","viber","whatsapp"
+          ]
+      },
+      "anchor-navigation-ex": {
+        "showLevel": false, 
+        "showGoTop": false
+      },
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-okaidia.css"
+        ]
+      }
+    }
+}

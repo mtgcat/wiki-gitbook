@@ -1,0 +1,22 @@
+{
+  "restartable": "rs",
+  "execMap": {
+    "js": "node"
+  },
+  "watch": [
+    "src",
+    "book"
+  ],
+  "ignore": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ],
+  "env": {
+    "DOMAIN": "localhost",
+    "PORT": "3000",
+    "MONGO_URI": "mongodb://localhost:27017/koa-base-template",
+    "ENVIRONMENT": "local"
+  },
+  "ext": "js json ts md",
+  "exec": "npm run build:book && ts-node ./src/index.ts"
+}
