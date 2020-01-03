@@ -13,7 +13,7 @@
     "test": "jest",
     "test-cov": "jest --coverage",
     "build": "tsc --pretty",
-    "build:book": "cd book && gitbook build ./ ../_book",
+    "build:book": "cd book && gitbook build ./ ../docs",
     "lint": "eslint --ext .js,.ts src test",
     "lint:fix": "eslint --ext .js,.ts src test --fix",
     "docs": "typedoc --options typedoc.json --plugin typedoc-plugin-markdown",
