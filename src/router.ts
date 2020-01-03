@@ -1,11 +1,11 @@
 import * as Router from 'koa-router'
-import { update } from './update'
+import { build } from './utils'
 
 const router = new Router()
 
 
 
-router.get('/update', update)
+router.get('/build', build)
 
 
 export { router }

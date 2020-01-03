@@ -19,7 +19,6 @@
     "docs": "typedoc --options typedoc.json --plugin typedoc-plugin-markdown",
     "dev": "nodemon",
     "prod": "node dist/index.js"
-
   },
   "repository": {
     "type": "git",
@@ -63,6 +62,7 @@
   "dependencies": {
     "@hapi/joi": "^16.1.8",
     "@koa/cors": "^3.0.0",
+    "cross-env": "^6.0.3",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-compress": "^3.0.0",
